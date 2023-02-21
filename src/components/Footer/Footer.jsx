@@ -17,27 +17,28 @@ const Footer = () => {
       className={`innerWidth yPaddings flexCenter ${css.container}`}>
         <div className={css.left}>
           <span className="primaryText">
-            Let's make something <br />
-            amazing together.
+            United we stand<br />
+            Divided we fall.
           </span>
           <span className="primaryText">
-            Start by <a href="mailto:zainkeepscode@gmail.com">saying hi</a>
+            communicate with us by <a href="mailto:corporate@aviationchamber.com">saying hi</a>
           </span>
         </div>
 
         <div className={css.right}>
           <div className={css.info}>
             <span className="secondaryText">Information</span>
-            <p>145 New York, FL 5467, USA</p>
+            <p>W-1503, Amrapali Sapphire, Sector-45, Noida 201301</p>
           </div>
           <ul className={css.menu}>
             <li>Services</li>
-            <li>Works</li>
-            <li>Notes</li>
-            <li>Experience</li>
+            <li>Events</li>
+            <li>Join</li>
+            <li>Team</li>
           </ul>
         </div>
       </motion.div>
+      <div className={`innerWidth ${css.container} flexCenter`}><span>Developed by © Itanium Software and Services LTD</span></div>
     </motion.section>
   );
 };

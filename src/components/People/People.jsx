@@ -21,11 +21,11 @@ const People = () => {
 
 
         <div className={`flexCenter ${css.heading}`}>
-          <span className="primaryText">People talk about us</span>
+          <span className="primaryText">`People involved in our vision`</span>
           <p style={{ marginTop: "2rem" }}>
-            I got a job that was in accordance with the salary and field of work
+          "We at Aviation chamber envision that we shall contribute our part for the development of this nation, 
           </p>
-          <p>The process of submitting an appilication was quite cosy</p>
+          <p>which has been the leader in the past and showed path to the world and we have immense faith in the capabilities of the talent we have and we shall surely rise again. We humbly invite you to be a part of this shared journey and strengthen the economy by being part of Aviation Chamber."</p>
         </div>
 
 

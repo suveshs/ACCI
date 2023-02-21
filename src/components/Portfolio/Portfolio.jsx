@@ -18,17 +18,17 @@ const Portfolio = () => {
 
         <motion.div variants={textVariant(.4)} className={`flexCenter ${css.heading}`}>
           <div>
-            <span className="primaryText">My Latest Works</span>
-            <p style={{marginTop: "10px"}}>Perfect solution for digital experience</p>
+            <span className="primaryText">EVENT `Galleria`</span>
+            <p style={{marginTop: "10px"}}>ACCI Education Summit 2023</p>
           </div>
-          <span className="secondaryText">Explore More Works</span>
+          <span className="secondaryText">Stand By for image uploads March-April Book Fest</span>
         </motion.div>
 
 
         <div className={`flexCenter ${css.showCase}`}>
-            <motion.img variants={fadeIn("up", "tween", .5, .6)} src="./showCase1.png" alt="project" />
-            <motion.img variants={fadeIn("up", "tween", .7, .6)} src="./showCase2.png" alt="project" />
-            <motion.img variants={fadeIn("up", "tween", .9, .6)} src="./showCase3.png" alt="project" />
+            <motion.img variants={fadeIn("up", "tween", .5, .6)} src="./book.png" alt="project" />
+            <motion.img variants={fadeIn("up", "tween", .7, .6)} src="./board.png" alt="project" />
+            <motion.img variants={fadeIn("up", "tween", .9, .6)} src="./bill.png" alt="project" />
         </div>
       </div>
     </motion.section>
@@ -36,3 +36,4 @@ const Portfolio = () => {
 };
 
 export default Portfolio;
+          

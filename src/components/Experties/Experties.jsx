@@ -16,6 +16,7 @@ const Experties = () => {
 
 
             {/* left side */}
+            
             <div className={css.leftSide}>
                 {
                     projectExperience.map((exp, i)=> {
@@ -25,8 +26,9 @@ const Experties = () => {
                             </div>
                             <div>
                                 <span>{exp.name}</span>
-                                <span className='secondaryText'>{exp.projects} Projects</span>
+                                <span className='secondaryText'>{exp.projects}</span>
                             </div>
+                            
                         </motion.div>
                     })
                 }
@@ -38,20 +40,23 @@ const Experties = () => {
             variants={textVariant(0.5)}
             className={css.rightSide}>
 
-                <span className='primaryText'>What do I help? </span>
+                <span className='primaryText'>About ACCI </span>
                 {WhatDoIHelp.map((paragraph, i)=> <span className='secondaryText' key={i}>{paragraph}</span>)}
 
 
                 <div className={`flexCenter ${css.stats}`}>
                     <div className={`flexCenter ${css.stat}`}>
-                        <span className='primaryText'>285+</span>
-                        <span className='secondaryText'>Project Completed</span>
+                    <span className='primaryText'></span>
+                    <span className='secondaryText'></span>
                     </div>
                     <div className={`flexCenter ${css.stat}`}>
-                        <span className='primaryText'>190+</span>
-                        <span className='secondaryText'>Happy Clients</span>
+                    <span className='primaryText'></span>
+                    <span className='secondaryText'></span>
                     </div>
                 </div>
+                
+
+                
             </motion.div>
         </motion.div>
     </section>

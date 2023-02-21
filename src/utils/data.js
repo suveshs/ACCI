@@ -1,120 +1,259 @@
 import { HiOutlineDesktopComputer } from "react-icons/hi";
 import { CiMobile1 } from "react-icons/ci";
 import { MdWorkspacesOutline } from "react-icons/md";
+
+
+
+
 export const projectExperience = [
   {
-    name: "Website Design",
-    projects: 76,
+    name: "AIMS & OBJECTIVES",
+    projects: 9 ,
     icon: HiOutlineDesktopComputer,
-    bg: "#286F6C",
+    bg: "#C689C6",
   },
   {
-    name: "Mobile App Design",
-    projects: 63,
-    icon: CiMobile1,
-    bg: "#EEC048",
-  },
-  {
-    name: "Brand Identity",
-    projects: 47,
+    name: "The chamber promotes and assist business in India and foreign which operate in a productive and profitable manner",
+    
     icon: MdWorkspacesOutline,
-    bg: "#F26440",
+    bg: "#9bacf7",
+  },
+  {
+    name: "To encourage a friendly feeling and unanimity among persons directly & indirectly with commerce and industry on all subjects involving their common goals",
+    
+    icon: MdWorkspacesOutline,
+    bg: "#9bacf7",
+  },
+  {
+    name: "The chamber promotes and protects the general commercial and industrial interest of India",
+    
+    icon: MdWorkspacesOutline,
+    bg: "#9bacf7",
+  },
+  {
+    name: "The chamber provide the opportunities and benefits to the members of the chamber, also strenthen the business",
+    
+    icon: MdWorkspacesOutline,
+    bg: "#9bacf7",
+  },
+  {
+    name: "The chamber shall carry out research or get research done for achieving the objectives and to collect, dessiminate and circulate statistics and othe useful information and to carrry out attempts to spread knowledge concerning economy and commerce",
+    
+    icon: MdWorkspacesOutline,
+    bg: "#9bacf7",
+  },
+  {
+    name: "The chamber organised seminars, conventions discussions, conferences and exhibitions in India & foreign countrries also send and invite representatives to or from foreign countries",
+    
+    icon: MdWorkspacesOutline,
+    bg: "#9bacf7",
+  },
+  {
+    name: "The chamber considers all questions connected with trade, commerce, Industry and manufactures",
+    
+    icon: MdWorkspacesOutline,
+    bg: "#9bacf7",
+  },
+  {
+    name: "The chamber shall try to arbitrate in the settelment of disputes arising out of commercial tractions between parties",
+    
+    icon: MdWorkspacesOutline,
+    bg: "#9bacf7",
+  },
+  {
+    name: "To hold, assist or support air shows, exhibitions, collective display and such other promotional programmers, of the objects of the chamber",
+    
+    icon: MdWorkspacesOutline,
+    bg: "#9bacf7",
   },
 ];
 
+ 
+
 export const WhatDoIHelp = [
-  "I will help you with finging a solution and solve your problem, We use process design to create digital products. Besides that also help their business.",
-  "We use process design to create digital products. Besides that also help their business",
+  "Aviation Chamber of Commerce and Industries has been established to help entrepreneurs and Business, so as to provide an environment where they thrive successfully in a profitable manner and to the fullest of their capabilities. Most of the Business networking Organizations and Bodies focus on Organized Sector. ",
+  "Aviation chamber shall be the voice of the Businesses and Industries, may it be Organized Sector or Unorganized Sector. It shall be the forum for all to speak and have their say in the policy formulation and pushing reforms while taking up issues with the Government. Numerous solutions and actions are required for an efficient and workable mechanism for Business people and general Populace to bestow hem with the best infrastructure, education, healthcare and employment opportunities. ",
+  "For the Organized as well as the Unorganized Sector, Aviation Chamber shall provide opportunities for people to know& understand the welfare schemes which have been launched by Government – by both the Centre and states, and shall make people aware of the opportunities they can avail and help themselves. The people who are in the Unorganized Sector can avail benefits such as Insurance for their family, Scholarship for Students, Legal Consultancy and Compliances, Business Consultancy, Business Networking, Employment Exchange, Talent hunt in the field of sports and arts, Internship and apprenticeship for people and many more." ,
+  "To ensure that the right people get their place in developing the nation and to provide the right path of development, we not only have to nurture talent, we also need to create opportunities for people who can contribute to the well-being of the nation and the economy. To find solutions for various issues in conducting Business, we at Aviation Chamber strive to help people in whatever manner we can, so that our hard working members strive towards success in all means and make their nation proud." ,
+  
+
 ];
 
 export const workExp = [
   {
-    place: "Self-Employed, Brisbane",
-    tenure: "Aug 2014 - Sep 2016",
-    role: "Visual Designer",
+    place: "OFFICE SPACE",
+    
+    role: "Office Space Members",
     detail:
-      "A visual desginer dsesign for a variety of platoforms, may include internet and internet sites, games, movies, kioasks and wearbies. In short, they create the concepts",
+      "Chamber members receive discounts on office suites and virtual office suites at various commercial complex. special packages for Chamber members that provide a range of spaces – both physical and virtual – as well as business services like telephone, internet, receptionist, copying, faxing, etc",
   },
   {
-    place: "New Man Services",
-    tenure: "Aug 2014 - Sep 2016",
-    role: "UI/UX Designer",
+    place: "BUSINESS REFFERALS",
+    
+    role: "Business Refferels Members",
     detail:
-      "A visual desginer dsesign for a variety of platoforms, may include internet and internet sites, games, movies, kioasks and wearbies. In short, they create the concepts",
+      "The Chamber receives hundreds of inquiries from companies and individuals. Referrals are made, whenever possible, exclusively to Chamber members. Your expanded business description helps us identify the appropriate member to recommend",
   },
   {
-    place: "Global Solution",
-    tenure: "Aug 2014 - Sep 2016",
-    role: "Sr. Product Designer",
+    place: "PROFESSIONAL DEVELOPMENT",
+    
+    role: "Professional Development",
     detail:
-      "A visual desginer dsesign for a variety of platoforms, may include internet and internet sites, games, movies, kioasks and wearbies. In short, they create the concepts",
+      "The Chamber offers numerous workshops and seminars designed with your business in mind. We will keep you informed of the latest “hot topics,” current market trends, cutting-edge technology, cost cutting measures and ways to maximize profits – all at a special “members only” price "
   },
+  {
+    place: "PUBLIC POLICY",
+    
+    role: "Public Policy",
+    detail:
+      "The Chamber is your voice in government. We address issues of concern to your business on the local, state and National levels. We take proactive measures to ensure that government considers business objectives and viewpoints. We'll keep you informed of relevant issues through our newsletters and committee and council meetings",
+  },
+  {
+    place: "HOTEL DISCOUNT",
+    
+    role: "Hotel Discount",
+    detail:
+      "Chamber members shall receive discount when you stay at the member hotel of the chamber when you visit a city or a place for a meeting or on business or when you organize a seminar or conference or so on.",
+  },
+  {
+    place: "RESTAURANT DISCOUNT",
+    
+    role: "Restaurant Discount",
+    detail:
+      "Chamber members shall receive discount when you visit a member restaurant. Save money while enjoying delicious food.",
+  },
+  {
+    place: "POLICY RESOLUTION",
+    
+    role: "Policy Resolution",
+    detail:
+      "ACCI seeks clarity on ambiguous policy statements and provides information on the implementation of certain policy regulation.",
+  },
+  {
+    place: "FREE NEWS PAPER ADVERTISING",
+    
+    role: "free News Paper Advertising",
+    detail:
+      "The Chamber receives hundreds of inquiries from companies and individuals. Referrals are made, whenever possible, exclusively to Chamber members. Your expanded business description helps us identify the appropriate member to recommend",
+  },
+  {
+    place: "FREE COUPON PAGE/ COUPON SUBMISSION",
+    
+    role: "free Coupon Page/ Coupon Submission",
+    detail:
+      "Receive one FREE black and white Advertisement in the Newspaper upon purchase of one Advertisement as a special welcome to Chamber Members"
+  },
+  {
+    place: "TRADE FACELITATION",
+    
+    role: "Trade Facelitation",
+    detail:
+      "As part of its day to day operations, the ACCI engages in dialogue to resolve issues and impediments affecting its members. Initiatives are made to strengthen and promote greater understanding of issues that impact the business community. ACCI liaises with Private Sector Trade Team which advises in areas of trade negotiations."
+  },
+  {
+    place: "ADVOCACY",
+    
+    role: "Advocacy",
+    detail:
+      "The Chamber receives hundreds of inquiries from companies and individuals. Referrals are made, whenever possible, exclusively to Chamber members. Your expanded business description helps us identify the appropriate member to recommend",
+  },
+  {
+    place: "REFERRALS/ LETTER OF INTRODUCTION",
+    
+    role: "Referrals / Letter Of Introduction",
+    detail:
+      "A visual desginer design for a variety of platforms, may include internet and internet sites, games, movies, kioasks and wearbies. In short, they create the concepts",
+  },
+  {
+    place: "EXPORT CERTIFICATION",
+    
+    role: "Export Certification",
+    detail:
+      "Certification of export documents for specific countries.",
+  },
+  {
+    place: "NETWORKING OPPURTUNITIES",
+    
+    role: "Networking Oppurtunities",
+    detail:
+      "The Chamber offers regular platforms for one on one interface with business people of varying sizes and all walks of life",
+  },
+  {
+    place: "BUSINESS TO BUSINESS MEETING",
+    
+    role: "Business To Business Meeting",
+    detail:
+      "ACCI arranges business-to-business meetings with its members and organizes the exchange of views and information between like-minded people and organizations",
+  },
+  {
+    place: "BUSINESS MENTORING",
+    
+    role: "Business Mentoring",
+    detail:
+      "Fully funded, the Business Mentoring service can match you with a Mentor to gain invaluable knowledge and support.",
+  },
+     
 ];
 
 export const comments = [
   {
-    name: "Anamika Sandula",
-    post: "Creative Manager",
+    name: "Hon'ble Ex-Chief Justice K.G Balakrishnan",
+    post: "PATRON IN CHIEF & HONORARY CHAIRMAN-ACCI",
     comment:
-      "Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
-    img: "./people2.png",
+      "Former chief justice of India and chairperson of the National Human Rights Commision of India, Presently the chairperson of commision on conversion",
+      img: "./img1.PNG",
+      
   },
   {
-    name: "Anamika Sandula",
-    post: "Creative Manager",
+    name: "Ms. Aruna Raj",
+    post: "CEO of AVIATION CHAMBER OF COMMERCE AND INDUSTRIES ",
     comment:
-      "Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
-    img: "./people1.png",
+      "Ms. Aruna Raj has diverse experience in the domain of business excellence and leadership establishment along with organizational design.",
+    img: "./Aruna.PNG",
   },
   {
-    name: "Anamika Sandula",
-    post: "Creative Manager",
+    name: "Mr. Suvesh Singh",
+    post: "FOUNDER &TRUSTEE, ACCI",
     comment:
-      "Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
-    img: "./people2.png",
+      "Advocate, Supreme Court Of India, International ADR Center, sister concern of ACCI , Practicing Lawyer in Hon’ble Supreme Court of India with experience of more than 8 years.",
+    img: "./img3.PNG",
   },
   {
-    name: "Anamika Sandula",
-    post: "Creative Manager",
+    name: "Mr. Sahil Chaudhary",
+    post: "Co-Founder and Trustee of ACCI",
     comment:
-      "Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
-    img: "./people1.png",
+      "Advocate, Supreme Court Of India, currently the Trustee of AVIATION CHAMBER OF COMMERCE AND INDUSTRIES & Practicing Lawyer in Hon’ble Supreme Court of India. ",
+    img: "./img4.PNG",
   },
   {
-    name: "Anamika Sandula",
-    post: "Creative Manager",
+    name: "Dr. Annu Bahl Mehra",
+    post: "Chairperson Of Executive Council – ACCI",
     comment:
-      "Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
-    img: "./people2.png",
+      "Deputy DEAN from Maharishi Law School, NOIDA, currently Chairperson of Exec Council -ACCI",
+    img: "./img5.PNG",
   },
   {
-    name: "Anamika Sandula",
-    post: "Creative Manager",
+    name: "Mr. Jagdish W Khobragade",
+    post: "Ex-Member Of Executive Council - ACCI",
     comment:
-      "Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
-    img: "./people1.png",
+      "Mr. Jagdish W Khobragade is an Assistant Professor of Law at Maharashtra National Law University, Nagpur.",
+    img: "./img6.PNG",
   },
   {
-    name: "Anamika Sandula",
-    post: "Creative Manager",
+    name: "Mr. Devesh Maurya",
+    post: "Practicing Lawyer in Hon’ble Supreme Court of India",
     comment:
-      "Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
-    img: "./people2.png",
+      "Mr. Devesh Maurya is currently the Director of Executive Council of AVIATION CHAMBER OF COMMERCE AND INDUSTRIES .",
+    img: "./img8.PNG",
   },
   {
-    name: "Anamika Sandula",
-    post: "Creative Manager",
+    name: "Ms. Pratishtha Majumdar",
+    post: "Practicing Lawyer in Hon’ble Supreme Court of India. ",
     comment:
-      "Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
-    img: "./people1.png",
+      "Ms. Pratishtha Majumdar is currently the Director of Executive Council of AVIATION CHAMBER OF COMMERCE AND INDUSTRIES ",
+    img: "./img9.PNG",
   },
-  {
-    name: "Anamika Sandula",
-    post: "Creative Manager",
-    comment:
-      "Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
-    img: "./people2.png",
-  },
+  
 ];
 
 export const sliderSettings = {
