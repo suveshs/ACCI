@@ -1,14 +1,15 @@
 {
   "name": "aviationchamber",
-  "homepage":"http://aviationchamber.com",
+  "homepage":"https://github.com/suveshs/AviationChamber",
+  
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview",
-    "deploy":"gh-pages -d dist"
+    "preview": "vite preview"
+    
   },
   "dependencies": {
     "framer-motion": "^8.0.2",
