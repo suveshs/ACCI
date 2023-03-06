@@ -35,7 +35,7 @@ const People = () => {
           <Slider {...sliderSettings} className={css.slider}>
             {comments.map((comment, i) => {
               return (
-                <div className={`flexCenter ${css.comment}`}>
+                <div className={`flexCenter ${css.comment}`} key={i}>
                   <img src={comment.img} alt="" />
                   <p>{comment.comment}</p>
                   <div className={css.line}></div>
