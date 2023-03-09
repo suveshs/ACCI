@@ -239,21 +239,7 @@ export const comments = [
       "Mr. Jagdish W Khobragade is an Assistant Professor of Law at Maharashtra National Law University, Nagpur.",
     img: "./img6.PNG",
   },
-  {
-    name: "Mr. Devesh Maurya",
-    post: "Practicing Lawyer in Hon’ble Supreme Court of India",
-    comment:
-      "Mr. Devesh Maurya is currently the Director of Executive Council of AVIATION CHAMBER OF COMMERCE AND INDUSTRIES .",
-    img: "./img8.PNG",
-  },
-  {
-    name: "Ms. Pratishtha Majumdar",
-    post: "Practicing Lawyer in Hon’ble Supreme Court of India. ",
-    comment:
-      "Ms. Pratishtha Majumdar is currently the Director of Executive Council of AVIATION CHAMBER OF COMMERCE AND INDUSTRIES ",
-    img: "./img9.PNG",
-  },
-  
+
 ];
 
 export const sliderSettings = {
