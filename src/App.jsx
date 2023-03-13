@@ -3,7 +3,7 @@ import Experties from './components/Experties/Experties'
 import Footer from './components/Footer/Footer'
 import Header from './components/Header/Header'
 import Hero from './components/Hero/Hero'
-
+import Blog from './components/Blog/Blog'
 import People from './components/People/People'
 import Portfolio from './components/Portfolio/Portfolio'
 import Work from './components/Work/Work'
@@ -16,6 +16,7 @@ const App = () => {
       <Hero/>
       
       <Experties/>
+      <Blog/>
       <Work/>
       <Portfolio/>
       <People/>

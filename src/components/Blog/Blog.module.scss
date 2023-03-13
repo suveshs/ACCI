@@ -1,0 +1,15 @@
+@import '../../styles/contants.scss';
+
+.wrapper {
+    background: $secondary-green;
+
+    .container {
+        flex-direction: column;
+        gap: 2rem;
+    }
+
+    .blogDailog {
+        flex-direction: row;
+        gap: 2rem;
+    }
+}

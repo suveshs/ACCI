@@ -279,3 +279,19 @@ export const sliderSettings = {
     },
   ],
 };
+
+
+export const blogs = [
+  {
+    name: "Hello",
+    image: "./img6.PNG",
+    description: "Hello, this blog is about hello. Happy reading!",
+    URL: "www.google.com",
+  },
+  {
+    name: "Hello there",
+    image: "./img6.PNG",
+    description: "Hello, this blog is about hello. Happy reading!",
+    URL: "www.google.com",
+  }
+]
