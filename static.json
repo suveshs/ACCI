@@ -1,7 +1,8 @@
 {
   "static": {
     "mimeTypes": {
-      "css": "text/css"
+      "css": "text/css",
+      "js": "application/javascript",
     }
   }
 }
