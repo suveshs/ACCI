@@ -7,9 +7,9 @@
   "scripts": {
     "predeploy": "vite build",
     "deploy": "gh-pages",
-    "dev": "vite --host 0.0.0.0",
+    "dev": "vite",
     "build": "vite build",
-    "preview": "vite --host 0.0.0.0 preview"
+    "preview": "vite preview"
   },
   "dependencies": {
     "framer-motion": "^8.0.2",
