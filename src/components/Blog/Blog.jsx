@@ -1,18 +1,31 @@
 import React from 'react'
+import {motion} from 'framer-motion'
 import BlogSection from './BlogSection'
-import css from './Blog.module.scss'
 import {blogs} from '../../../src/utils/data'
+import { staggerContainer, textVariant} from '../../utils/motion'
+import css from './Blog.module.scss'
 
 const Blog = () => {
   return (
-    <section className={css.wrapper}>
+    <motion.section
+      variants={staggerContainer}
+      initial="hidden"
+      whileInView="show"
+      viewport={{ once: false, amount: 0}}
+      className={css.wrapper}
+    >
     <div className={`innerWidth flexCenter ${css.container}`}>
-      <div className="primaryText yPaddings">Blogs</div>
+      <motion.div
+        variants={textVariant(.4)}
+        className="primaryText yPaddings"
+      >
+        Blogs
+      </motion.div>
       <div className={`flexCenter ${css.blogDailog}`}>
-        {blogs.map((b, i) => <BlogSection key={i} blogContent={b}/>)}
+        {blogs.map((b, i) => <BlogSection key={i} counter={i} blogContent={b}/>)}
       </div>
     </div>
-    </section>
+    </motion.section>
   )
 }
 

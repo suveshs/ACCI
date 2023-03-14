@@ -284,14 +284,17 @@ export const sliderSettings = {
 export const blogs = [
   {
     name: "Hello",
-    image: "./img6.PNG",
-    description: "Hello, this blog is about hello. Happy reading!",
+    image: "./book.png",
+    title: "Hello to everyone",
+    description: "Hello, this blog is about hello. Happy reading! s simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
     URL: "www.google.com",
   },
   {
     name: "Hello there",
-    image: "./img6.PNG",
-    description: "Hello, this blog is about hello. Happy reading!",
+    image: "./bill.png",
+    title: "Hello there to everyone",
+    description: "Hello, this blog is about hello. Happy reading! s simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
     URL: "www.google.com",
-  }
+  },
+
 ]

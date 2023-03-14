@@ -1,0 +1,66 @@
+@import '../../styles/contants.scss';
+
+.wrapper {
+    background-color: white;
+    margin-bottom: 40px;
+    width: 35%;
+    height: auto;
+    border-radius: 20px;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+
+    .blogImage {
+        max-width: 100%;
+        height: 200px;
+        background-position: center;
+        background-size: cover;
+        border-top-left-radius: 20px;
+        border-top-right-radius: 20px;
+    }
+
+    .blogContent {
+        margin: 20px;
+    }
+
+    .blogerName {
+        display: inline-block;
+        font-size: 12px;
+        margin-bottom: 10px;
+    }
+
+    .writer {
+        font-weight: 600;
+        font-size: 12px;
+    }
+
+    .horizonalLine {
+        text-align: center;
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        color: grey;
+        margin-bottom: 10px;
+    }
+
+    .blogtitle {
+        font-size: 15px;
+        font-weight: 800;
+        margin-bottom: 10px;
+
+    }
+
+    .blogDescription {
+        font-size: 12px;
+        margin-bottom: 10px;
+        color: #6A6A6A;
+    }
+
+    .readmeBtn {
+        width: 120px;
+        height: 35px;
+        background-color: #5151FF;
+        border: none;
+        border-radius: 5px;
+        color: white;
+    }
+
+}
