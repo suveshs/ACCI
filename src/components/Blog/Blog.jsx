@@ -17,7 +17,7 @@ const Blog = () => {
     <div className={`innerWidth flexCenter ${css.container}`}>
       <motion.div
         variants={textVariant(.4)}
-        className="primaryText yPaddings"
+        className={`primaryText yPaddings ${css.section__heading}`}
       >
         Blogs
       </motion.div>
