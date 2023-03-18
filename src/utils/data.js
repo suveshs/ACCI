@@ -462,7 +462,7 @@ Empanelled Assistant Professor (Political Science)
 Delhi University`,
     image: "./internetSecurity.jpg",
     title: "Data Protection and secrecy of Data",
-    description: "Article coming in next week do read it as it has useful information etc",
+    description: "Article coming in next week do read it as it has useful information.",
     URL: "www.google.com",
   },
 
