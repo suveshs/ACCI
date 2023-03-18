@@ -21,20 +21,34 @@
         margin: 20px;
     }
 
-    .blogerName {
+    .blogerName, .blogerOccupation {
         display: inline-block;
         font-size: 12px;
-        margin-bottom: 10px;
+        margin: auto 10px;
     }
+
+    .blogerOccupation {
+        font-weight: normal;
+    }
+
 
     .writer {
         font-weight: 600;
         font-size: 12px;
+        display:flex;
+
+        img {
+            margin: auto 0;
+            width: 45px;
+            height: 40px;
+            border-radius: 50%;
+        }
     }
 
     .horizonalLine {
         text-align: center;
         width: 100%;
+        margin-top: 20px;
         margin-left: auto;
         margin-right: auto;
         color: grey;
