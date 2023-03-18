@@ -1,0 +1,32 @@
+@import '../../styles/contants.scss';
+
+.wrapper {
+    background: $secondary-green;
+
+    .container {
+        flex-direction: column;
+        gap: 2rem;
+    }
+
+    .blogDailog {
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 2rem;
+    }
+}
+
+@media screen and (max-width: 400px) {
+
+    .section__heading {
+        padding-bottom: 0px !important;
+    }
+
+    .container {
+        display: block;
+    }
+
+    .blogDailog {
+        display: flex;
+        flex-direction: column !important;
+    }
+}

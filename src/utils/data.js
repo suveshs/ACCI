@@ -279,3 +279,176 @@ export const sliderSettings = {
     },
   ],
 };
+
+
+export const blogs = [
+  {
+    name: "Ram Dayal Ahirwar",
+    image: "./Rupees.png",
+    title: "Depreciation of Rupee and the rise of Digital Currency",
+    description: `Developing economies are going through a difficult time regarding their valuation
+                  compared to the U.S. dollar. After opening the economy in 1991, India welcomed
+                  the neoliberal economic regime.`,
+    blog: `<h3>Introduction:</h3>
+
+Developing economies are going through a difficult time regarding their valuation
+compared to the U.S. dollar. After opening the economy in 1991, India welcomed
+the neoliberal economic regime. We allowed the private players to participate in
+the country&#39;s economic growth. Foreign Direct Investment and Foreign Institutional
+Investment took a more significant role in the development and growth of the
+social and financial sectors. International regimes like the World Trade
+Organisation, Bilateral Investment Treaties, And Multilateral economic
+arrangements benefitted Indian economies to perform better. In subsequent years,
+we successfully adopted new technologies in our agriculture growth,
+manufacturing, and service sector. 
+
+<h3>Indian Scenarios</h3>
+
+The role of different governments in our federal arrangements of rule at the union
+and state levels promoted an investment-friendly ecosystem for both foreign
+players and Indian industrialists. Various exemptions and reforms in the taxation
+law, single window clearance, and special economic zones (SEZs) boost
+employment opportunities for the available workforce.
+
+In post-2000, digitization started in the banking sector, and automation took
+vantage in the industrial and manufacturing sector. The &#39;computer system&#39; based
+technologies helped to modernize various pillars of India&#39;s economy. That helped to
+increase manufacturing capacity but consequently decreased the requirement of the
+labor workforce. 
+
+In recent years we are witnessing the consistent depreciation of the Indian rupee in
+comparison to the U.S. $. in simple words, for the product or services, we need to
+pay more Indian rupees. We cannot produce everything we need, so we import
+from other countries using U.S. dollars. U.S. Dollar is the most accepted currency
+in the international exchange rate system. As per the fundamental laws of
+economics, if the demand for USD in India exceeds (by any reason, like our import
+needs) its supply, then it’s worth will go up, and the INR will come down in that
+respect. And its quick result here could be that the Foreign Institutional Investors
+are retreating their investments in the country and taking them elsewhere. This can
+create a shortfall in the supply of the Dollar in India and a fall in forex reserve. This
+state of affairs can only be addressed by exporters who can bring in dollars. If, by
+some means, the FIIs can be wooed back, then this imbalance can also be addressed
+to a certain extent. 
+
+<h3>Factors of Rupee Depreciation</h3>
+
+Both international and national factors cause the depreciation of the rupee. These
+are based on Geopolitics, the International fuel market, supply chain management,
+War &amp; conflicts, Disaster, natural calamities, International frauds, and cybercrimes.
+There may be pushing factors like government failure in any country, change in
+political regime, the collapse of law and order, and poor policy framework in
+countries of vital fuel and mineral resources. Here we are trying to understand the
+recent events in the past few years that led to the fall in the purchasing power parity
+of the Indian rupee in the International market. First, A sell-off in the global equity
+markets, which was triggered by the hike in interest rates by the U.S. Federal
+Reserve (central bank), the war in Europe, and growth concerns in China due to
+the Covid-19 surge, led to the rupee depreciation. Second, The outflow of dollars
+results from high crude prices; our energy demand of import crude is very high.
+And the correction in equity markets is also causing the adverse flow of dollars.
+And Third, The domestic tightening of Monetary Policy steps taken by the Reserve
+Bank of India to counter rising inflation in the domestic market. 
+
+These factors impact the overall Indian economy by depleting the foreign exchange
+reserve and widening the current account deficit. With higher landed prices of
+crude oil and other crucial imports, the economy is inching toward cost-push
+inflation when overall costs increase (inflation) due to increases in wages and raw
+materials, called cost-push inflation. The primary manufacturers and secondary
+sector producers and suppliers may only partially pass on the burden of high costs
+to consumers, which, in turn, affects government dividend earnings, raising
+questions about budgeted fiscal deficits. 
+
+<h3>Growth in Digital Transactions</h3>
+
+To assess the growth of digital transactions and the use of digital currencies in the
+Indian economy, first, there is a need to look into the technologies and the
+platforms that operate and enables valid transactions. The faith of users in these
+technologies is vital. Second, the Policy framework under the regulation of the
+Reserve Bank of India ensures the smooth functioning of the safe and validity of
+the rupee that people carry in digital forms. The rules of the banking system and the
+various third-party internet and computer network-based applications&#39; performance
+attract the user base. Digital payment transactions have significantly increased due
+to coordinated efforts of the Government as a whole, along with all stakeholders
+concerned, from 2,071 crore transactions in FY 2017-18 to 8,840 crore transactions
+in FY 2021-22 (Source: RBI, NPCI, and banks). 
+
+The history of money is fascinating and goes back thousands of years. From the
+early days of bartering to the first metal coins and eventually the first paper money,
+it has always had an essential impact on how we function as a society. The
+innovations in cash and finance go hand in hand with the shifts in monetary history.
+In its evolution till date, the currency has taken several different forms. It has
+traversed its path from barter to valuable metal coins made up of bronze and copper
+which later evolved to be made up of silver and gold. Somewhere along the way,
+people improvised and instead of actual goods for barter they started using claims
+on goods, a bill of exchange (RBI 2022).
+
+The two significant events of the recent years of the Government of India pushed
+users to use digital platforms to perform transactions. First, the Demonetizatisation
+of large currency denominations of 500 and 1000 paper notes was banned on
+November 8, 2016. That pushed users to carry the transaction in a cashless format.
+This gives a boost to the platforms like Paytm, Google pay, and BHIM. These
+applications are not doing the digital currency transaction, but whatever money we
+carry in our bank account, that transaction happens in digital format. 
+
+The digital currency ecosystem in the background of technology is quite different
+than what we know about the simple cashless transaction from our mobile to any
+shop or vendor displaying their QR codes commonly visible these days
+everywhere. Digital transactions are simple and smooth in learning and performing.
+However, the users and the merchants need to take care of basic cyber safety
+behavior while doing so. Every rupee transaction is monitored by the respective
+banks of which bank account we use while doing transactions based on the linked
+bank account. 
+
+<h3>Digital Currency</h3>
+
+A digital currency is any currency that is available entirely in electronic form.
+Many countries, including India, launched digital currencies in nations’ financial
+systems. Digital currency, however, is exclusively exchanged through virtual
+means and does not leave a computer network. The three major varieties of digital
+currency are cryptocurrency, central bank digital currency (CBDCs) and
+stablecoins (Kunal and Aashika, 2023). 
+ Cryptocurrency is decentralized money, free from any government or central
+bank’s chains. It relies on blockchain technology and uses cryptography to secure
+transactions done by people making it impossible to counterfeit. Blockchain is a
+digital ledger whose access is distributed between authorized users and records
+transactions. The asset is free from governing bodies like central banks. This
+mechanism makes Cryptocurrencies independent. At the same time, the centralized
+money we use is monitored and managed by the RBI. 
+
+Digital currency and cryptocurrency are different. According to the RBI, “a CBDC
+is a legal tender issued by a central bank in a digital form. It is the same as a fiat
+currency and is exchangeable one-to-one with the fiat currency. Only its form is
+different. Unlike Cryptocurrencies, a CBDC isn’t a commodity or claims on
+commodities or digital assets. Cryptocurrencies have no issuer. They are not money
+(certainly not currency) as the word has come to be understood historically. 
+
+In the international market, the value of the rupee is depreciating. Still, with
+possibilities like transactions through UPI and the trade in the Indian rupee with
+countries of mutual agreement, we can bypass the need for Dollar, at least with
+some countries helping us to reduce the current account burden. 
+International transactions in digital currencies need to ensure the learning and cyber
+security of the financial system. At the national level, digital commerce and the use
+of digital currency will boost the new and technology-friendly operators and
+merchants. The overall market will grow.
+
+<h3>Conclusion</h3>
+Digital currencies are a faster mode of transaction. They help in cheaper global
+transfers, and no need for intermediaries. They are available 24/7 to perform
+transactions. All these transactions are happening under the monitoring of the
+country&#39;s central banks, which will counter unsafe and illegal transactions. There is
+surety in the national Government in digital currency, and that&#39;s the most prominent
+element in maintaining users&#39; faith.
+The broader impact of the use of digital currency on the depreciation of the Indian
+rupee is yet to be asses. Still, the global transfers and use of digital currency in the
+international market will help us to less dependency on US dollar and counter the
+depreciation of the Indian rupee.`,
+    URL: "www.google.com",
+  },
+  {
+    name: "Ram Dayal",
+    image: "./internetSecurity.jpg",
+    title: "Data Protection and secrecy of Data",
+    description: "Article coming in next week do read it as it has useful information etc",
+    URL: "www.google.com",
+  },
+
+]
