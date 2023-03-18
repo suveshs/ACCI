@@ -40,7 +40,13 @@ const BlogSection = (props) => {
       <div className={css.content}>
         <div style={{backgroundImage: `url(${blogContent.image})`}} className={css.blogImage}/>
         <div className={css.blogContent}>
-          <span className={css.writer}>Writer: </span><p className={css.blogerName}>{blogContent.name}</p>
+          <span className={css.writer}>
+            <img src={blogContent.writerImg} />
+            <div className={css.blogerContent}>
+              <p className={css.blogerName}>{blogContent.name}</p>
+              <p className={css.blogerOccupation}>{blogContent.occupation}</p>
+            </div>
+          </span>
           <hr className={css.horizonalLine}/>
           <p className={css.blogtitle}>{blogContent.title}</p>
           <p className={css.blogDescription}>{blogContent.description}</p>

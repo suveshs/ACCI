@@ -284,6 +284,10 @@ export const sliderSettings = {
 export const blogs = [
   {
     name: "Ram Dayal Ahirwar",
+    writerImg: "./Ram.jpg",
+    occupation: `BE, MA, MPhil.
+Empanelled Assistant Professor (Political Science)
+Delhi University`,
     image: "./Rupees.png",
     title: "Depreciation of Rupee and the rise of Digital Currency",
     description: `Developing economies are going through a difficult time regarding their valuation
@@ -440,11 +444,22 @@ element in maintaining users&#39; faith.
 The broader impact of the use of digital currency on the depreciation of the Indian
 rupee is yet to be asses. Still, the global transfers and use of digital currency in the
 international market will help us to less dependency on US dollar and counter the
-depreciation of the Indian rupee.`,
+depreciation of the Indian rupee.
+
+<h3> Writen by :</h3><h4>Ram Dayal Ahirwar </h4><br/>
+BE, MA, MPhil.<br>
+Empanelled Assistant Professor (Political Science) <br>
+Delhi University <br>
+<h3>Area of Specialisation:</h3> Cyber Threats and International Negotiations.
+`,
     URL: "www.google.com",
   },
   {
-    name: "Ram Dayal",
+    name: "Ram Dayal Ahirwar",
+    writerImg: "./Ram.jpg",
+    occupation: `BE, MA, MPhil.
+Empanelled Assistant Professor (Political Science)
+Delhi University`,
     image: "./internetSecurity.jpg",
     title: "Data Protection and secrecy of Data",
     description: "Article coming in next week do read it as it has useful information etc",
