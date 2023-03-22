@@ -1,4 +1,5 @@
 import React, { useEffect, useRef, useState } from "react";
+import {Link} from 'react-router-dom'
 import css from "./Header.module.scss";
 import { BiPhoneCall, BiMenuAltRight } from "react-icons/bi";
 import { motion } from "framer-motion";
@@ -27,7 +28,7 @@ const Header = () => {
       style={{boxShadow: headerShadow}}
     >
       <div className={`innerWidth ${css.container} flexCenter`}>
-        <div className={css.name}>Aviation Chamber</div>
+        <div className={css.name}><Link to="/">Aviation Chamber</Link></div>
         <ul
           className={`flexCenter ${css.menu}`}
           ref={menuRef}
@@ -42,6 +43,8 @@ const Header = () => {
             <p>+91 (858) 701 2770</p>
             <BiPhoneCall size={"40px"} />
           </li>
+          <li><Link to="/login">Login</Link></li>
+          <li><Link to="/signUp">Sign Up</Link></li>
         </ul>
 
         {/* for medium and small screens */}
