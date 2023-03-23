@@ -24,7 +24,7 @@ const Login = () => {
         </FormControl>
         <Link to="#">Forgot Password</Link>
         <Link to="#">Forgot Username</Link>
-        <Link to="/signUp">Don't have account Sign-Up</Link>
+        <span>Don't have account: </span><Link to="/signUp" className={css.signup__btn}>Sign-Up</Link>
       </div>
     </div>)
 }

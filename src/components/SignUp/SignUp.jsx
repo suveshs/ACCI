@@ -25,7 +25,7 @@ const SignUp = () => {
         <FormControl fullWidth className={css.signup__form_input}>
           <Button fullWidth variant="contained">Sign-Up</Button>
         </FormControl>
-        <Link to="/login">Already have an account: Login here</Link>
+        <span>Already have an account: </span><Link to="/login">Login here</Link>
       </div>
     </div>)
 }
