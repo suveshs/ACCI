@@ -3,6 +3,7 @@ import css from './Login.module.scss'
 import TextField from '@mui/material/TextField';
 import FormControl from '@mui/material/FormControl';
 import Button from '@mui/material/Button';
+import { Link } from 'react-router-dom';
 
 const Login = () => {
   console.log("Login executing")
@@ -21,6 +22,9 @@ const Login = () => {
         <FormControl fullWidth className={css.login__form_input}>
           <Button fullWidth variant="contained">Login</Button>
         </FormControl>
+        <Link to="#">Forgot Password</Link>
+        <Link to="#">Forgot Username</Link>
+        <Link to="/signUp">Don't have account Sign-Up</Link>
       </div>
     </div>)
 }

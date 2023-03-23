@@ -2,6 +2,7 @@ import React from 'react'
 import TextField from '@mui/material/TextField';
 import FormControl from '@mui/material/FormControl';
 import Button from '@mui/material/Button';
+import {Link} from 'react-router-dom'
 
 import css from './SignUp.module.scss'
 
@@ -24,6 +25,7 @@ const SignUp = () => {
         <FormControl fullWidth className={css.signup__form_input}>
           <Button fullWidth variant="contained">Sign-Up</Button>
         </FormControl>
+        <Link to="/login">Already have an account: Login here</Link>
       </div>
     </div>)
 }
