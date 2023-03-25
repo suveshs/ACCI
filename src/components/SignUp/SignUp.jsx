@@ -20,6 +20,9 @@ const SignUp = () => {
           <TextField id="standard-basic" label="Email" variant="outlined" />
         </FormControl>
         <FormControl fullWidth className={css.signup__form_input}>
+          <TextField id="standard-basic" label="Phone-Number" variant="outlined" />
+        </FormControl>
+        <FormControl fullWidth className={css.signup__form_input}>
           <TextField id="standard-basic" label="Password" variant="outlined" />
         </FormControl>
         <FormControl fullWidth className={css.signup__form_input}>
