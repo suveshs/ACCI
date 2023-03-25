@@ -1,6 +1,7 @@
+@import './../../styles/contants.scss';
 
 .wrapper {
-    background-image: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(230,51,37,1) 0%, rgba(255,203,0,1) 100%);
+    background-image: linear-gradient(90deg, #A5BECC 0%, #A5BECC 0%, #F2EBE9 100%);
     height: 89vh;
 }
 
@@ -36,7 +37,8 @@
     padding-top: 0% !important;
 
     button {
-        background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(230,51,37,1) 0%, rgba(255,203,0,1) 100%);
+        background: linear-gradient(90deg, #F2EBE9 0%, #F2EBE9 0%, #A5BECC 100%);
+        color: black;
     }
 }
 
