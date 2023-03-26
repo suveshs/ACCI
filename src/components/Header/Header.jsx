@@ -1,4 +1,4 @@
-import React, { useEffect, useRef, useState } from "react";
+import React, { useRef, useState } from "react";
 import {Link} from 'react-router-dom'
 import css from "./Header.module.scss";
 import { BiPhoneCall, BiMenuAltRight } from "react-icons/bi";
@@ -7,7 +7,7 @@ import { getMenuStyles, headerVariants } from "../../utils/motion";
 import useOutsideAlerter from "../../hooks/useOutsideAlerter";
 import useHeaderShadow from "../../hooks/useHeaderShadow";
 
-const Header = () => {
+const Header = (props) => {
   const menuRef = useRef(null);
   const [menuOpened, setMenuOpened] = useState(false);
   const headerShadow = useHeaderShadow();
@@ -17,6 +17,10 @@ const Header = () => {
     menuRef,
     setMenuOpened,
   });
+
+  const logoutHandler = () => {
+    props.logoutHandler()
+  }
 
   return (
     <motion.div
@@ -43,8 +47,13 @@ const Header = () => {
             <p>+91 (858) 701 2770</p>
             <BiPhoneCall size={"40px"} />
           </li>
-          <li><Link to="/login">Login</Link></li>
-          <li><Link to="/signUp">Sign Up</Link></li>
+          {!props.isLoggedIn ? <>
+                                 <li><Link to="/login">Login</Link></li>
+                                 <li><Link to="/signUp">Sign Up</Link></li>
+                               </> : <>
+                                       <li>{props.username}</li>
+                                       <li onClick={logoutHandler}>Logout</li>
+                                     </>}
         </ul>
 
         {/* for medium and small screens */}
